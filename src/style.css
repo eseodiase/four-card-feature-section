@@ -131,7 +131,8 @@ h3,
 
 .two_three_container,
 .card_three,
-.card_four {
+.card_four,
+footer {
   clear: both;
 }
 
@@ -152,7 +153,7 @@ h3 {
   }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 62rem) {
   body {
     font-size: var(--primary-font2);
   }
@@ -185,7 +186,13 @@ h3 {
   }
   
   .top_paragraph {
-    margin-inline: 20rem;
+    margin-inline: 10.9375rem;
+  }
+}
+
+@media (min-width: 75rem) {
+  .top_paragraph {
+    margin-inline: 21.875rem;
   }
 }
 
