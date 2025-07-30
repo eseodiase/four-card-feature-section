@@ -153,7 +153,7 @@ h3 {
   }
 }
 
-@media (min-width: 62rem) {
+@media (min-width: 48rem) {
   body {
     font-size: var(--primary-font2);
   }
@@ -172,7 +172,7 @@ h3 {
   .card_two,
   .card_three,
   .card_four {
-    max-width: 18.75rem;
+    width: 18.75rem;
     margin-inline: 0.625rem;
   }
   
