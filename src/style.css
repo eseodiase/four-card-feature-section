@@ -130,6 +130,7 @@ h3,
 }
 
 .two_three_container,
+.card_three,
 .card_four {
   clear: both;
 }
@@ -170,7 +171,7 @@ h3 {
   .card_two,
   .card_three,
   .card_four {
-    width: 18.75rem;
+    max-width: 18.75rem;
     margin-inline: 0.625rem;
   }
   
