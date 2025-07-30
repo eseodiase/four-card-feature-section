@@ -5,6 +5,8 @@
 :root {
   --body-bg: hsl(0, 0%, 100%);
   --heading1: calc(1.45rem + 0.2vw);
+  --smaller-phone-heading1: 1.15625rem;
+  --smaller-phone-heading3: 1rem;
   --primary-color: hsl(234, 12%, 34%);
   --primary-font1: 0.9375rem;
   --primary-font2: calc(0.78rem + 0.2vw);
@@ -132,7 +134,24 @@ h3,
   clear: both;
 }
 
-@media (min-width: 48rem) {
+@media (max-width: 22.5rem) {
+#main-heading,
+h2 {
+  font-size: var(--smaller-phone-heading1);
+}
+
+h3 {
+  font-size: var(--smaller-phone-heading3);
+}
+}
+
+@media (min-width: 37.5rem){
+  main{
+    margin-inline: 6.25rem;
+  }
+}
+
+@media (min-width: 64rem) {
   body {
     font-size: var(--primary-font2);
   }
@@ -151,7 +170,7 @@ h3,
   .card_two,
   .card_three,
   .card_four {
-    min-width: 18.75rem;
+    width: 18.75rem;
     margin-inline: 0.625rem;
   }
   
@@ -165,13 +184,14 @@ h3,
   }
   
   .top_paragraph {
-    margin-inline: 13.75rem;
+    margin-inline: 20rem;
   }
 }
 
 footer {
   text-align: center;
   margin-block-end: 1.5625rem;
+  margin-inline: 1.5625rem;
 }
 
 .attribution {
