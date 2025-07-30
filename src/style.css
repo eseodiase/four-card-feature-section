@@ -1,0 +1,184 @@
+/*
+  Aurthor: Ese Odiase
+*/
+
+:root {
+  --body-bg: hsl(0, 0%, 100%);
+  --heading1: calc(1.45rem + 0.2vw);
+  --primary-color: hsl(234, 12%, 34%);
+  --primary-font1: 0.9375rem;
+  --primary-font2: calc(0.78rem + 0.2vw);
+  --card-headings: calc(1.125rem + 0.2vw);
+  --card-shadow: 1.5px 8px 8px 0.1px #cccccc;
+  --card1-outline: 4px solid hsl(180, 62%, 55%);
+  --card2-outline: 4px solid hsl(0, 78%, 62%);
+  --card3-outline: 4px solid hsl(34, 97%, 64%);
+  --card4-outline: 4px solid hsl(212, 86%, 64%);
+  --h2-h3-color: hsl hsl(212, 6%, 44%);
+  --link-font: 0.6875rem;
+}
+
+body {
+  background: var(--body-bg);
+  margin: 0;
+  padding: 0;
+  color: var(--primary-color);
+  font-size: var(--primary-font1);
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 1.5625rem;
+}
+
+#main-heading {
+  font-weight: 200;
+  line-height: 0;
+}
+
+#main-heading,
+h2 {
+  font-size: var(--heading1)
+}
+
+.top_paragraph {
+  margin-block-end: 2.5rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: var(--card-headings);
+  line-height: 0;
+  margin-block-start: 2.5rem;
+}
+
+h2,
+h3 {
+  color: var(--h2-h3-color);
+}
+
+section {
+  text-align: center;
+  margin-block-start: 3.75rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 3.75rem;
+}
+
+.card_one,
+.card_two,
+.card_three,
+.card_four {
+  margin-block: 0.625rem;
+  height: 16.25rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--card-shadow);
+  -webkit-box-shadow: var(--card-shadow);
+  -moz-box-shadow: var(--card-shadow);
+  text-align: left;
+}
+
+.card_two {
+  margin-block-end: 1.25rem;
+}
+
+.card_one {
+  border-top: var(--card1-outline);
+}
+
+.card_two {
+  border-top: var(--card2-outline);
+}
+
+.card_three {
+  border-top: var(--card3-outline);
+}
+
+.card_four {
+  border-top: var(--card4-outline);
+}
+
+h3,
+.card-paragraph {
+  margin-inline: 1.5625rem;
+}
+
+.top_paragraph,
+.card-paragraph {
+  line-height: 1.6;
+}
+
+.card-paragraph {
+  font-weight: 400;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  margin-inline: 2.5rem;
+  margin-block-start: 1.25rem;
+  float: right;
+}
+
+.two_three_container,
+.card_four {
+  clear: both;
+}
+
+@media (min-width: 48rem) {
+  body {
+    font-size: var(--primary-font2);
+  }
+  
+  section {
+    margin-block-start: 0.5rem;
+  }
+  
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-block-end: 0.5rem;
+  }
+  
+  .card_one,
+  .card_two,
+  .card_three,
+  .card_four {
+    min-width: 18.75rem;
+    margin-inline: 0.625rem;
+  }
+  
+  .card_two {
+    margin-block-end: 1.25rem;
+  }
+  
+  .card_one,
+  .card_four {
+    align-self: center;
+  }
+  
+  .top_paragraph {
+    margin-inline: 13.75rem;
+  }
+}
+
+footer {
+  text-align: center;
+  margin-block-end: 1.5625rem;
+}
+
+.attribution {
+  font-size: var(--link-font);
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
