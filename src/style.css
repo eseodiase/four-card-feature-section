@@ -16,7 +16,7 @@
   --card2-outline: 4px solid hsl(0, 78%, 62%);
   --card3-outline: 4px solid hsl(34, 97%, 64%);
   --card4-outline: 4px solid hsl(212, 86%, 64%);
-  --h2-h3-color: hsl hsl(212, 6%, 44%);
+  --h2-h3-color: hsl(212, 6%, 44%);
   --link-font: 0.6875rem;
 }
 
@@ -34,7 +34,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 #main-heading {
@@ -73,6 +72,7 @@ h3 {
   display: flex;
   flex-direction: column;
   margin-block-end: 3.75rem;
+  max-width: 75rem;
 }
 
 .card_one,
