@@ -154,7 +154,7 @@ h3 {
   }
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 62rem) {
   body {
     font-size: var(--primary-font2);
   }
@@ -200,7 +200,12 @@ h3 {
   .card_two,
   .card_three,
   .card_four {
-    width: 21.25rem;
+    width: 22.5rem;
+    margin-inline: 1.25rem;
+  }
+  
+  .card_two {
+    margin-block-end: 1.875rem;
   }
   
   .top_paragraph {
