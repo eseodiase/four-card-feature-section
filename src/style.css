@@ -34,7 +34,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-inline: 1.5625rem;
+
 }
 
 #main-heading {
@@ -63,8 +63,9 @@ h3 {
   color: var(--h2-h3-color);
 }
 
-section {
+.main-section {
   text-align: center;
+  margin-inline: 1.5625rem;
   margin-block-start: 3.75rem;
 }
 
@@ -148,7 +149,7 @@ h3 {
 }
 
 @media (min-width: 37.5rem) {
-  main {
+  .main-section {
     margin-inline: 6.25rem;
   }
 }
@@ -158,11 +159,8 @@ h3 {
     font-size: var(--primary-font2);
   }
   
-  main {
-    margin-inline: auto;
-  }
-  
-  section {
+  .main-section {
+    margin-inline: 1.5625rem;
     margin-block-start: 0.5rem;
   }
   
