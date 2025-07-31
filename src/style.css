@@ -196,7 +196,7 @@ h3 {
   .card_two,
   .card_three,
   .card_four {
-    width: auto;
+    max-width: 21.25rem;
   }
   
   .top_paragraph {
