@@ -154,12 +154,12 @@ h3 {
 }
 
 @media (min-width: 62rem) {
-  main {
-    margin-inline: 1.5625rem;
-  }
-  
   body {
     font-size: var(--primary-font2);
+  }
+  
+  main {
+    margin-inline: auto;
   }
   
   section {
