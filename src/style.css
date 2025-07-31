@@ -4,7 +4,7 @@
 
 :root {
   --body-bg: hsl(0, 0%, 100%);
-  --heading1: calc(1.45rem + 0.2vw);
+  --heading1: calc(1.875rem + 0.2vw);
   --smaller-phone-heading1: 1.15625rem;
   --smaller-phone-heading3: 1rem;
   --primary-color: hsl(234, 12%, 34%);
@@ -187,7 +187,7 @@ h3 {
   }
   
   .top_paragraph {
-    margin-inline: 10.9375rem;
+    margin-inline: 9.9375rem;
   }
 }
 
@@ -209,7 +209,7 @@ h3 {
   }
   
   .top_paragraph {
-    margin-inline: 21.875rem;
+    margin-inline: 20.875rem;
   }
 }
 
