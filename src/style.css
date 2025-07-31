@@ -4,9 +4,10 @@
 
 :root {
   --body-bg: hsl(0, 0%, 100%);
-  --heading1: calc(1.875rem + 0.2vw);
+  --heading1: calc(1.625rem + 0.2vw);
   --smaller-phone-heading1: 1.15625rem;
   --smaller-phone-heading3: 1rem;
+  --larger-screen-heading1: calc(1.875rem + 0.2vw);
   --primary-color: hsl(234, 12%, 34%);
   --primary-font1: 0.9375rem;
   --primary-font2: calc(0.78rem + 0.2vw);
@@ -137,6 +138,7 @@ footer {
   clear: both;
 }
 
+/* Breakpoint for smaller devices */
 @media (max-width: 22.5rem) {
 #main-heading,
 h2 {
@@ -148,12 +150,14 @@ h3 {
 }
 }
 
+/* Breakpoint for medium devices */
 @media (min-width: 37.5rem) {
   .main-section {
     margin-inline: 6.25rem;
   }
 }
 
+/* Breakpoint for large devices */
 @media (min-width: 62rem) {
   body {
     font-size: var(--primary-font2);
@@ -187,14 +191,20 @@ h3 {
   }
   
   .top_paragraph {
-    margin-inline: 9.9375rem;
+    margin-inline: 10.4375rem;
   }
 }
 
+/* Breakpoint for extra large devices */
 @media (min-width: 75rem) {
   .main-section {
     margin-inline: 10rem;
   }
+  
+#main-heading,
+h2 {
+  font-size: var(--larger-screen-heading1);
+}
   
   .card_one,
   .card_two,

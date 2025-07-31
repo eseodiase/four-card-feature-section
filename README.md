@@ -45,7 +45,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Spck Editor Documentation](https://spck.io/docs) - Essential for mobile development setup
+- [Spck Editor Documentation](https://spck.io/documentation) - Essential for mobile development setup
 - [Static App](https://static.app) - A simple and free online tool to format Your Code
 - [Responsive Design Checker](https://www.responsivedesignchecker.com) - Useful for responsive testing
 
