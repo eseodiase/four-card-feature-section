@@ -5,7 +5,7 @@
 :root {
   --body-bg: hsl(0, 0%, 100%);
   --heading1: calc(1.4525rem + 0.2vw);
-  --smaller-phone-heading1: 1.15625rem;
+  --smaller-phone-heading1: calc(1.15625rem + 0.2vw);
   --smaller-phone-heading3: 1rem;
   --larger-screen-heading1: calc(1.875rem + 0.2vw);
   --primary-color: hsl(234, 12%, 34%);
