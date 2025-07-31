@@ -32,8 +32,8 @@ body {
 main {
   min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-inline: 1.5625rem;
 }
 
@@ -44,7 +44,7 @@ main {
 
 #main-heading,
 h2 {
-  font-size: var(--heading1)
+  font-size: var(--heading1);
 }
 
 .top_paragraph {
@@ -153,7 +153,7 @@ h3 {
   }
 }
 
-@media (min-width: 62rem) {
+@media (min-width: 48rem) {
   main {
     margin-inline: 1.5625rem;
   }
