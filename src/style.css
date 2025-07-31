@@ -192,8 +192,7 @@ h3 {
 
 @media (min-width: 75rem) {
   .main-section {
-    margin-inline: 12.5rem;
-    width: 100%;
+    margin-inline: 10rem;
   }
   
   .card_one,
