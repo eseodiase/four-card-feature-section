@@ -71,6 +71,7 @@ h3 {
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-block-end: 3.75rem;
 }
 
@@ -153,7 +154,7 @@ h3 {
   }
 }
 
-@media (min-width: 62rem) {
+@media (min-width: 48rem) {
   body {
     font-size: var(--primary-font2);
   }
@@ -199,7 +200,7 @@ h3 {
   .card_two,
   .card_three,
   .card_four {
-    width: auto;
+    width: 21.25rem;
   }
   
   .top_paragraph {
@@ -220,4 +221,7 @@ footer {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+.hidden-text {
+  visibility: hidden;
 }
