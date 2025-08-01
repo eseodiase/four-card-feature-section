@@ -2,25 +2,33 @@
   Aurthor: Ese Odiase
 */
 
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* CSS custom properties */
 :root {
+  /* colors */
   --body-bg: hsl(0, 0%, 100%);
-  --heading1: calc(1.4525rem + 0.2vw);
-  --smaller-phone-heading1: calc(1.15625rem + 0.2vw);
-  --smaller-phone-heading3: 1rem;
-  --larger-screen-heading1: calc(1.875rem + 0.2vw);
   --primary-color: hsl(234, 12%, 34%);
-  --primary-font1: 0.9375rem;
-  --primary-font2: calc(0.78rem + 0.2vw);
-  --card-headings: calc(1.125rem + 0.2vw);
-  --card-shadow: 1.5px 8px 8px 0.1px #cccccc;
+  --h2-h3-color: hsl(212, 6%, 44%);
   --card1-outline: 4px solid hsl(180, 62%, 55%);
   --card2-outline: 4px solid hsl(0, 78%, 62%);
   --card3-outline: 4px solid hsl(34, 97%, 64%);
   --card4-outline: 4px solid hsl(212, 86%, 64%);
-  --h2-h3-color: hsl(212, 6%, 44%);
+  --card-shadow: 1.5px 8px 8px 0.1px #cccccc;
+  --link-color: hsl(228, 45%, 44%);
+  /* font sizes */
+  --heading1: calc(1.4525rem + 0.2vw);
+  --primary-font1: 0.9375rem;
+  --primary-font2: calc(0.78rem + 0.2vw);
+  --card-headings: calc(1.125rem + 0.2vw);
+  --smaller-phone-heading1: calc(1.15625rem + 0.2vw);
+  --smaller-phone-heading3: 1rem;
+  --larger-screen-heading1: calc(1.875rem + 0.2vw);
   --link-font: 0.6875rem;
 }
 
+/* Mobile first workflow */
 body {
   background: var(--body-bg);
   margin: 0;
@@ -235,7 +243,7 @@ footer {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--link-color)
 }
 .hidden-text {
   visibility: hidden;
